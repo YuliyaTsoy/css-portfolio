@@ -27,9 +27,12 @@ div {
     text-align: end;
     padding: 0 20px 0 0 ;
 }
+
+/*Styles for profile picture Start*/
 .avatar {
     vertical-align: middle;
     width: 100px;
     height: 100px;
     border-radius: 50%;
   }
+  /*Styles for profile picture End*/
