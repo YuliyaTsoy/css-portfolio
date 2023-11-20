@@ -36,3 +36,26 @@ div {
     border-radius: 50%;
   }
   /*Styles for profile picture End*/
+
+  /* Styles for aside element Start */
+  aside {
+    display: block;
+    width: 20%;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+  }
+  /* Styles for aside element End */
+
+  /*Styles for sections Start*/
+  section {
+
+    width:78%;
+    display: block;
+    margin-left: 20%;
+}
+/*Styles for sections End*/
+
+p {
+    text-wrap:wrap;
+}
