@@ -1,0 +1,35 @@
+/* START: Global Styles */
+* { 
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+/* END: Global Styles */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/*START:styling navigation bar*/
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+}
+ nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*END: styling navigation bar*/
+
+
+div {
+    text-align: end;
+    padding: 0 20px 0 0 ;
+}
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }

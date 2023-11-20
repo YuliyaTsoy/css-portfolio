@@ -3,26 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>CSS Portfolio</title>
 </head>
 <body>
     <header>
     <h1>Yuliya's Portfolio</h1>
+    <img class="avatar" src="./assets/images/Headshot.jpg" alt="Yuliya Tsoy">
     <nav>
         <ul>
-            <li><a href="#bio">Bio</a></li>
+            <li><a href="#bio">About me</a></li>
+            <li><a href="#work">Work</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Resume</a></li>
         </ul>
     </nav>
+    <div>Cool Subtitle</div>
 </header>
-<section id="bio">
-    <img src="https://cdn-img-feed.streeteasy.com/nyc/image/64/382664064.jpg" alt="Yuliya Tsoy">
+<aside>About me</aside>
+<section id="bio">About me paragraph goes here
+    <p>actual paragraph</p>
 </section>
-<section id="contact">
+<aside>Work</aside>
+<section id="portfolio">Links to portfolios go here
+    <nav>
+        <ul>
+            <li><a href="#">Seo Company Refactor</a></li>
+            <li><a href="#">Landing Page</a></li>
+            <li><a href="#">CSS Portfolio</a></li>
+        </ul>
+    </nav>
+</section>
+<aside id="contact">Contact me
     <ul>
-        <li><a href="yuliyatsoy2023@gmail.com">Yuliya's Email</a></li>
-    </ul>
-</section>
+        <li><a id="phone-number" href="yuliyatsoy2023@gmail.com">(34)977-2476</a></li>
+        <li><a id="email" href="yuliyatsoy2023@gmail.com">yuliyatsoy2023@gmail.com</a></li>
+        <li><a id="github" href="#">Github</a></li>
+</aside>
 </body>
 </html>
