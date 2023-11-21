@@ -79,14 +79,13 @@ p {
     height: 100%;
     width: 100%;
   }
-  /* div .container {
-    display: inline-block;
-  } */
+  
   #landing-page {
     margin: 5px;
     margin-left:0;
     width: 500px;
     height: 100px;
+    width:100%;
     
   }
 #css-portfolio {
@@ -94,6 +93,27 @@ p {
     margin-top: 5px;
     width: 500px;
     height: 100px;
+    width:100%;
+}
+.flex-container {
+    display:flex;
+}
+.container01 {
+    flex:1 0 150px;
+    display: flex;
+    margin-right: 10px;
+}
+.cont01 {
+flex: 1 0 150px;
+}
+.container02 {
+    flex:1 0 150px;
+    display: flex;
+    margin-left:10px;
+}
+.cont02 {
+    flex: 1 0 150px;
+   
 }
 
 /*Styles for images End*/  
@@ -119,6 +139,8 @@ p {
     position: relative;
     text-align: center;
     color: rgb(6, 2, 2);
+    width:100%;
+    float:left;
     
 }
 .text-block01 {
@@ -135,7 +157,8 @@ p {
     position: relative;
     text-align: center;
     color: rgb(6, 2, 2);
-    
+    width:100%;
+    float:right;
 }
 .text-block02 {
     position: absolute;
