@@ -49,7 +49,7 @@ div {
 
   /*Styles for sections Start*/
   section {
-
+    padding: 0 0 2% 2%;
     width:78%;
     display: block;
     margin-left: 20%;
@@ -59,3 +59,12 @@ div {
 p {
     text-wrap:wrap;
 }
+
+/*Styles for Contact section Start*/
+ .contacts ul li {
+    display: inline-block;
+    margin: 3% 2% 2% 5%;
+    
+}
+
+/*Styles for Contact section End*/
