@@ -82,11 +82,15 @@ p {
   #landing-page {
     margin: 5px;
     margin-left:0;
+    width: 420px;
+    height: 100px;
     
   }
 #css-portfolio {
     float: right;
     margin-top: 5px;
+    width: 420px;
+    height: 100px;
 }
 
 /*Styles for images End*/  
