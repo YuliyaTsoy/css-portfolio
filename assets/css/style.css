@@ -22,8 +22,8 @@ nav ul li {
 }
 /*END: styling navigation bar*/
 
-div{
-  text-align: end;
+.cool-title{
+  text-align:end;
   padding: 20px;
 }
 
@@ -79,18 +79,72 @@ p {
     height: 100%;
     width: 100%;
   }
+  /* div .container {
+    display: inline-block;
+  } */
   #landing-page {
     margin: 5px;
     margin-left:0;
-    width: 420px;
+    width: 500px;
     height: 100px;
     
   }
 #css-portfolio {
     float: right;
     margin-top: 5px;
-    width: 420px;
+    width: 500px;
     height: 100px;
 }
 
 /*Styles for images End*/  
+
+/*Adding textboxes to the image Start*/
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(6, 2, 2);
+    
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    background-color: rgb(138, 94, 94);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container01 {
+    position: relative;
+    text-align: center;
+    color: rgb(6, 2, 2);
+    
+}
+.text-block01 {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    background-color: rgb(138, 94, 94);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+.container02 {
+    position: relative;
+    text-align: center;
+    color: rgb(6, 2, 2);
+    
+}
+.text-block02 {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    background-color: rgb(138, 94, 94);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Adding textboxes to the image End  */
