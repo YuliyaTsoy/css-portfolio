@@ -1,70 +1,92 @@
 /* START: Global Styles */
-* { 
-    box-sizing: border-box;
-    border: 1px solid red;
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
 }
 /* END: Global Styles */
 
 body {
-    font-family: sans-serif;
-    margin: 0;
+  font-family: sans-serif;
+  margin: 0;
 }
 
 /*START:styling navigation bar*/
 nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
 }
- nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+nav ul li {
+  display: inline-block;
+  margin-left: 25px;
 }
 /*END: styling navigation bar*/
 
-
-div {
-    text-align: end;
-    padding: 0 20px 0 0 ;
+div{
+  text-align: end;
+  padding: 20px;
 }
 
 /*Styles for profile picture Start*/
 .avatar {
-    vertical-align: middle;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  }
-  /*Styles for profile picture End*/
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+/*Styles for profile picture End*/
 
-  /* Styles for aside element Start */
-  aside {
-    display: block;
-    width: 20%;
-    float: left;
-    font-style: italic;
-    background-color: lightgray;
-  }
-  /* Styles for aside element End */
+/* Styles for aside element Start */
+aside {
+  display: block;
+  width: 20%;
+  float: left;
+  font-style: italic;
+  background-color: lightgray;
+}
+/* Styles for aside element End */
 
-  /*Styles for sections Start*/
-  section {
-    padding: 0 0 2% 2%;
-    width:78%;
-    display: block;
-    margin-left: 20%;
+/*Styles for sections Start*/
+section {
+  padding: 0 0 2% 2%;
+  width: 78%;
+  display: block;
+  margin: 0px 0 2% 20%;
+  border-left: 0.25rem solid rgb(27, 2, 76);
 }
 /*Styles for sections End*/
 
 p {
-    text-wrap:wrap;
+  text-wrap: wrap;
 }
 
 /*Styles for Contact section Start*/
- .contacts ul li {
-    display: inline-block;
-    margin: 3% 2% 2% 5%;
+.contacts ul {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts ul li {
+  display: inline-block;
+  margin: auto;
+  padding: 2%;
+}
+/*Styles for Contact section End*/
+
+/*Styles for images Start*/
+ .portfolio img#refactor {
+    height: 100%;
+    width: 100%;
+  }
+  #landing-page {
+    margin: 5px;
+    margin-left:0;
     
+  }
+#css-portfolio {
+    float: right;
+    margin-top: 5px;
 }
 
-/*Styles for Contact section End*/
+/*Styles for images End*/  
