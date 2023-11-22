@@ -1,7 +1,7 @@
 /* START: Global Styles */
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+
 }
 /* END: Global Styles */
 
@@ -13,9 +13,12 @@ main {display: flex;
 /* Forces elements to the next line if they don't fit */
 flex-wrap: wrap;
 }
+h1, .cool-title {font-size: 2rem} /*font size for the heading*/
 
 /*START:styling navigation bar*/
 nav {
+    display: flex;
+    flex-wrap: wrap;
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -24,8 +27,8 @@ nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-@media screen and (min-width:350px){
-    .navigation ul li {
+@media screen and (max-width:768px){
+    nav {
     flex-direction: column;
     }
     }
@@ -92,6 +95,7 @@ p {
 /*Styles for Contact section End*/
 
 /*Styles for images Start*/
+
 
  .portfolio img#refactor {
     height: 100%;
@@ -202,9 +206,14 @@ html {
   /* Smooth Scrolling End */
 
 /* adding media query to contacts */
-@media screen and (min-width:350px){
+@media screen and (max-width:768px){
 .contacts ul li {
 flex-direction: column;
 }
 }
     
+/* styles footer */
+h3 {
+    font-size: medium;
+    text-align: center;
+}
