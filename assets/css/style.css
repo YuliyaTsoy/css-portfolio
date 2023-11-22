@@ -16,6 +16,7 @@ flex-wrap: wrap;
 h1, .cool-title {font-size: 2rem} /*font size for the heading*/
 
 /*START:styling navigation bar*/
+
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -28,8 +29,13 @@ nav ul li {
   margin-left: 25px;
 }
 @media screen and (max-width:768px){
-    nav {
+    nav ul {
+        display: flex;
     flex-direction: column;
+    } 
+    header div {
+        display: flex;
+        flex-direction: column;
     }
     }
       
@@ -96,7 +102,6 @@ p {
 
 /*Styles for images Start*/
 
-
  .portfolio img#refactor {
     height: 100%;
     width: 100%;
@@ -141,6 +146,10 @@ flex: 1 0 150px;
 .cont02 {
     flex: 1 0 150px;
    
+}
+
+.overlay:hover {
+    opacity: 20%;
 }
 
 /*Styles for images End*/  
