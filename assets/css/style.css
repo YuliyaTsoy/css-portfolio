@@ -172,3 +172,9 @@ flex: 1 0 150px;
 }
 
 /* Adding textboxes to the image End  */
+
+/* Smooth Scrolling Start*/
+html {
+    scroll-behavior: smooth;
+  }
+  /* Smooth Scrolling End */
