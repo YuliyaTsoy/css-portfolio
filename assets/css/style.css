@@ -9,6 +9,10 @@ body {
   font-family: sans-serif;
   margin: 0;
 }
+main {display: flex;
+/* Forces elements to the next line if they don't fit */
+flex-wrap: wrap;
+}
 
 /*START:styling navigation bar*/
 nav {
@@ -20,6 +24,12 @@ nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
+@media screen and (min-width:350px){
+    .navigation ul li {
+    flex-direction: column;
+    }
+    }
+      
 /*END: styling navigation bar*/
 
 .cool-title{
@@ -61,6 +71,7 @@ p {
 }
 
 /*Styles for Contact section Start*/
+    
 .contacts ul {
   margin-top: 2%;
   display: flex;
@@ -72,6 +83,12 @@ p {
   margin: auto;
   padding: 2%;
 }
+@media screen and (min-width: 350px){
+    .contacts ul {
+        display:block;
+    }
+}
+
 /*Styles for Contact section End*/
 
 /*Styles for images Start*/
@@ -98,12 +115,17 @@ p {
 }
 .flex-container {
     display:flex;
-}
+ max-width: 100%;
+flex-wrap: wrap;}
+
+
 .container01 {
     flex:1 0 150px;
     display: flex;
     margin-right: 10px;
 }
+
+
 .cont01 {
 flex: 1 0 150px;
 }
@@ -178,3 +200,11 @@ html {
     scroll-behavior: smooth;
   }
   /* Smooth Scrolling End */
+
+/* adding media query to contacts */
+@media screen and (min-width:350px){
+.contacts ul li {
+flex-direction: column;
+}
+}
+    
